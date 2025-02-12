@@ -15,5 +15,15 @@ O arquivo só irá abrir automaticamente ao rodar o projeto local, ao rodar via 
 
 ---
 
+
+```bash
+    # buildar imagem via docker-compose
+    docker-compose up -d
+
+     # rodar o comando docker para executar a imagem.
+
+    docker run pos-go-stress-test-loadtest:latest --url=http://google.com --requests=200 --concurrency=20
+```
+
 <img src="docs/graph.png" alt="Gráfico de Desempenho" width="1200"/>
 
